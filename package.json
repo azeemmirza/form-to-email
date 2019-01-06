@@ -1,0 +1,25 @@
+{
+  "name": "form-to-email",
+  "version": "1.0.0",
+  "description": "From Data to be send to email , asynchronous.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azeemmirza/form-to-email.git"
+  },
+  "author": {
+    "name": "Azeem Mirza",
+    "email": "contact@azeemirza.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azeemmirza/form-to-email/issues"
+  },
+  "homepage": "https://github.com/azeemmirza/form-to-email#readme",
+  "dependencies": {
+    "milligram": "^1.3.0"
+  }
+}
