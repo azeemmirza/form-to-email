@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form to Email</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/milligram/dist/milligram.min.css">
+    <script src="./public/script.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="column">
+            <div style="text-align: center">
+                <h1>Form to Email</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column column-50 column-offset-25">
+            <form id="form">
+                <input type="hidden" name="type" value="FORM_TYPE_A" required>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea type="text" name="message" placeholder="Message" required></textarea>
+                <input type="file" accept="*" name="resume" required>
+                <br/>
+                <button class="button button-outline" type="submit" id="submitBtn">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
